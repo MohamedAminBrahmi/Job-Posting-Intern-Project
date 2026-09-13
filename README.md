@@ -39,11 +39,32 @@ The data follows a simple **fact + bridge table** design: `job_postings_fact` ho
 
 ## 📊 Dashboard Highlights
 
-The Power BI dashboard (see `BI dash/`) includes:
-- **Salary by Experience Level** — Entry, Mid, and Senior-level salary comparisons
-- **Salary by Industry** — average salary breakdown across company industries
-- **Salary by Country** — top-paying countries for the roles analyzed
-- Interactive filters/slicers for deeper exploration
+The Power BI dashboard (see `BI dash/`) is organized into four interactive pages, filterable by **Employment Type** and **Experience Level**:
+
+**1. Management** — high-level KPIs for the overall job market
+- Total job postings, companies hiring, average/median salary
+- Job distribution by experience level, employment type, and AI specialization
+- Job posting trends over time and top job markets by country
+
+**2. Recruiters** — talent supply and demand insights
+- Applicant distribution by country and experience level
+- Applicant distribution by employment type
+- Most requested programming language and most dominant skill
+- Job market demand by AI specialization
+
+**3. Salary & Compensation** — pay analysis across segments
+- Average/median/min/max salary KPIs
+- Salary by experience level (Entry → Senior progression)
+- Top industries by average salary
+- Highest-paying and lowest-paying countries
+
+**4. Job Characteristics** — nature of the roles posted
+- Remote / hybrid / on-site distribution
+- Job count by employment type
+- Most in-demand programming languages and skills
+- Total skills tracked and geographic distribution of postings
+
+
 
 ## 🚀 How to Use
 
